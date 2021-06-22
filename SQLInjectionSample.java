@@ -123,6 +123,11 @@ import  javax.servlet.http.HttpServletResponse;
  */
 
 /**
+ * 23rd update for a GitHub2 'push' to 'origin/master'
+ * - 06/22/2021 
+ */
+
+/**
  * Servlet implementation class SQLInjectionSampleServlet.
  */
 
