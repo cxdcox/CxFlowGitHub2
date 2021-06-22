@@ -29,7 +29,8 @@ jobs:
     - name: Checkmarx CxFlow Action
       uses: checkmarx-ts/checkmarx-cxflow-github-action@v1.1 #Github Action version
       with:
-        project: GitHub_GitHub2_GitHub-Actions
+      # project: GitHub_GitHub2_GitHub-Actions
+        project: Daryl_Cox-CxFlowBitBucket-master
         team: /CxServer/SP/Company/Users
         checkmarx_url: ${{ secrets.CHECKMARX_URL }} # To be stored in GitHub Secrets.
         checkmarx_username: ${{ secrets.CHECKMARX_USER }} # To be stored in GitHub Secrets.
